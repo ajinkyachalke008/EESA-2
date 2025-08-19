@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-E-S-A · Government College Karad</title>
+    <meta name="description" content="Electrical Engineering Student Association (E‑E‑S‑A), Government College Karad" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="theme-warm">
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <header class="navbar" role="banner">
+      <div class="container nav-inner">
+        <a href="#home" class="brand" aria-label="E-E-S-A Home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 21l6-10H9l6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="brand-text">E‑E‑S‑A</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav id="primary-nav" class="nav" role="navigation" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button id="themeToggle" class="btn btn-ghost" aria-pressed="false" title="Toggle color theme">
+              <svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg>
+              <span class="hide-sm">Theme</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="main" role="main">
+      <section class="hero section">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 class="display">E‑E‑S‑A · Government College Karad</h1>
+            <p class="subtitle">A community advancing power, electronics, and control—through projects, research, and collaboration.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#students">Explore Students</a>
+              <a class="btn btn-outline" href="#events">View Events</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 400 300" class="hero-illustration">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.15" />
+                  <stop offset="100%" stop-color="var(--accent)" stop-opacity="0.15" />
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="url(#g1)"/>
+              <g fill="none" stroke="var(--primary)" stroke-opacity="0.3">
+                <path d="M20 220h60l20-40h60l20-35h60l20-30h60" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="60" cy="90" r="16" />
+                <rect x="120" y="60" width="50" height="30" rx="4" />
+                <rect x="200" y="110" width="70" height="45" rx="6" />
+                <circle cx="320" cy="70" r="20" />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="wave-sep" aria-hidden="true">
+          <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,64 C240,120 360,0 600,24 C840,48 960,144 1200,112 C1320,96 1380,76 1440,64 L1440,0 L0,0 Z" fill="var(--bg)" />
+          </svg>
+        </div>
+      </section>
+
+      <section class="section categories" aria-labelledby="categories-heading">
+        <div class="container">
+          <h2 id="categories-heading" class="section-title">Explore</h2>
+          <p class="section-subtitle">Jump into the core areas of E‑E‑S‑A</p>
+          <div class="card-grid three">
+            <a class="card card-hero" href="#students">
+              <div class="card-media">
+                <svg class="card-icon"><use href="#icon-user"></use></svg>
+              </div>
+              <div class="card-body">
+                <h3>Students</h3>
+                <p>Upload your resume, showcase projects, and connect.</p>
+                <span class="chip">View more</span>
+              </div>
+            </a>
+            <a class="card card-hero" href="#faculty">
+              <div class="card-media">
+                <svg class="card-icon"><use href="#icon-chip"></use></svg>
+              </div>
+              <div class="card-body">
+                <h3>Faculty</h3>
+                <p>Share profiles, interests, and collaboration opportunities.</p>
+                <span class="chip">View more</span>
+              </div>
+            </a>
+            <a class="card card-hero" href="#events">
+              <div class="card-media">
+                <svg class="card-icon"><use href="#icon-calendar"></use></svg>
+              </div>
+              <div class="card-body">
+                <h3>Events</h3>
+                <p>Workshops, seminars, and competitions—all in one place.</p>
+                <span class="chip">View more</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="students" class="section students" aria-labelledby="students-heading">
+        <div class="container">
+          <h2 id="students-heading" class="section-title">Students</h2>
+          <p class="section-subtitle">Upload resumes/CVs and get featured</p>
+
+          <form id="studentForm" class="form card surface" enctype="multipart/form-data" novalidate>
+            <div class="form-row">
+              <label for="stuName">Full name</label>
+              <input id="stuName" name="name" type="text" required placeholder="e.g., Aarya Patil" />
+            </div>
+            <div class="form-row two">
+              <div>
+                <label for="stuBranch">Branch / Year</label>
+                <input id="stuBranch" name="branch" type="text" required placeholder="Electrical · TY" />
+              </div>
+              <div>
+                <label for="stuSkills">Key skills (comma separated)</label>
+                <input id="stuSkills" name="skills" type="text" placeholder="Power systems, MATLAB, PCB" />
+              </div>
+            </div>
+            <div class="form-row two">
+              <div>
+                <label for="stuGit">GitHub URL</label>
+                <input id="stuGit" name="github" type="url" placeholder="https://github.com/username" />
+              </div>
+              <div>
+                <label for="stuLinkedin">LinkedIn URL</label>
+                <input id="stuLinkedin" name="linkedin" type="url" placeholder="https://linkedin.com/in/username" />
+              </div>
+            </div>
+            <div class="form-row file-row">
+              <label for="stuResume" class="file-label"><svg class="icon sm"><use href="#icon-upload"></use></svg> Resume (PDF)</label>
+              <input id="stuResume" name="resume" type="file" accept="application/pdf" required />
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Submit Resume</button>
+              <span class="form-hint">Client-side only: files are not permanently stored.</span>
+            </div>
+          </form>
+
+          <div class="list-head">
+            <h3 class="list-title">Recent uploads</h3>
+            <button id="clearStudents" class="btn btn-ghost">Clear All</button>
+          </div>
+          <div id="studentsGrid" class="card-grid three responsive"></div>
+        </div>
+      </section>
+
+      <section id="faculty" class="section faculty" aria-labelledby="faculty-heading">
+        <div class="container">
+          <h2 id="faculty-heading" class="section-title">Faculty</h2>
+          <p class="section-subtitle">Upload professional profiles</p>
+
+          <form id="facultyForm" class="form card surface" enctype="multipart/form-data" novalidate>
+            <div class="form-row two">
+              <div>
+                <label for="facName">Full name</label>
+                <input id="facName" name="name" type="text" required placeholder="Prof. R. Kulkarni" />
+              </div>
+              <div>
+                <label for="facRole">Designation</label>
+                <input id="facRole" name="designation" type="text" required placeholder="Associate Professor" />
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="facArea">Research areas</label>
+              <input id="facArea" name="areas" type="text" required placeholder="Power systems, Control, VLSI" />
+            </div>
+            <div class="form-row two">
+              <div>
+                <label for="facEmail">Email</label>
+                <input id="facEmail" name="email" type="email" placeholder="name@college.edu" />
+              </div>
+              <div>
+                <label for="facPhoto" class="file-label"><svg class="icon sm"><use href="#icon-upload"></use></svg> Photo (PNG/JPG)</label>
+                <input id="facPhoto" name="photo" type="file" accept="image/*" />
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Add Profile</button>
+              <div class="filter-row">
+                <label for="facFilter" class="sr-only">Filter</label>
+                <select id="facFilter" class="select">
+                  <option value="all">All Areas</option>
+                  <option value="Power">Power</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Control">Control</option>
+                </select>
+              </div>
+            </div>
+          </form>
+
+          <div class="list-head">
+            <h3 class="list-title">Faculty directory</h3>
+            <button id="clearFaculty" class="btn btn-ghost">Clear All</button>
+          </div>
+          <div id="facultyGrid" class="card-grid three responsive"></div>
+        </div>
+      </section>
+
+      <section id="events" class="section events" aria-labelledby="events-heading">
+        <div class="container">
+          <h2 id="events-heading" class="section-title">Events</h2>
+          <p class="section-subtitle">Workshops, seminars, competitions</p>
+
+          <div class="tabs" role="tablist" aria-label="Event categories">
+            <button class="tab active" data-tab="upcoming" role="tab" aria-selected="true">Upcoming</button>
+            <button class="tab" data-tab="past" role="tab" aria-selected="false">Past</button>
+          </div>
+
+          <div id="eventsGrid" class="card-grid three responsive"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-heading">
+        <div class="container">
+          <h2 id="contact-heading" class="section-title">Contact</h2>
+          <p class="section-subtitle">Get in touch with the association</p>
+          <div class="grid two">
+            <form id="contactForm" class="form card surface" novalidate>
+              <div class="form-row two">
+                <div>
+                  <label for="conName">Name</label>
+                  <input id="conName" type="text" required placeholder="Your name" />
+                </div>
+                <div>
+                  <label for="conEmail">Email</label>
+                  <input id="conEmail" type="email" required placeholder="you@example.com" />
+                </div>
+              </div>
+              <div class="form-row">
+                <label for="conSubject">Subject</label>
+                <input id="conSubject" type="text" required placeholder="Subject" />
+              </div>
+              <div class="form-row">
+                <label for="conMessage">Message</label>
+                <textarea id="conMessage" rows="5" required placeholder="How can we help?"></textarea>
+              </div>
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Send</button>
+                <span class="form-hint">This uses your email client via mailto:</span>
+              </div>
+            </form>
+            <aside class="card surface contact-info">
+              <h3>Association</h3>
+              <ul class="contact-list">
+                <li><svg class="icon sm"><use href="#icon-map"></use></svg> Government College of Engineering, Karad, Maharashtra</li>
+                <li><svg class="icon sm"><use href="#icon-link"></use></svg> <a href="mailto:eesa@gcek.ac.in">eesa@gcek.ac.in</a></li>
+                <li class="socials">
+                  <a aria-label="GitHub" href="#"><svg class="icon"><use href="#icon-github"></use></svg></a>
+                  <a aria-label="LinkedIn" href="#"><svg class="icon"><use href="#icon-linkedin"></use></svg></a>
+                  <a aria-label="Instagram" href="#"><svg class="icon"><use href="#icon-instagram"></use></svg></a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer-inner">
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#students">Students</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#students">Resumes</a></li>
+              <li><a href="#faculty">Profiles</a></li>
+              <li><a href="#events">Workshops</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Association</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="socials">
+              <a aria-label="GitHub" href="#"><svg class="icon"><use href="#icon-github"></use></svg></a>
+              <a aria-label="LinkedIn" href="#"><svg class="icon"><use href="#icon-linkedin"></use></svg></a>
+              <a aria-label="Instagram" href="#"><svg class="icon"><use href="#icon-instagram"></use></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="policies">
+            <a href="#">Cookie settings</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+          <p class="copyright">© <span id="year"></span> E‑E‑S‑A · Government College Karad</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <!-- Icon sprite -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+      <symbol id="icon-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-5 0-9 2.5-9 5.5V22h18v-2.5C21 16.5 17 14 12 14Z"/></symbol>
+      <symbol id="icon-chip" viewBox="0 0 24 24"><path fill="currentColor" d="M9 3v2H7a2 2 0 0 0-2 2v2H3v2h2v2H3v2h2v2a2 2 0 0 0 2 2h2v2h2v-2h2v2h2v-2h2a2 2 0 0 0 2-2v-2h2v-2h-2v-2h2V9h-2V7a2 2 0 0 0-2-2h-2V3h-2v2h-2V3Zm-2 6h10v6H7Z"/></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v3H2V6a2 2 0 0 1 2-2h3Zm15 8v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10Z"/></symbol>
+      <symbol id="icon-upload" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20h14v-2H5m7-14-5 5h3v4h4v-4h3l-5-5Z"/></symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5Z"/></symbol>
+      <symbol id="icon-link" viewBox="0 0 24 24"><path fill="currentColor" d="M3.9 12a5 5 0 0 1 5-5h3v2h-3a3 3 0 0 0 0 6h3v2h-3a5 5 0 0 1-5-5Zm7-3h2v6h-2Zm4.2-2h-3v2h3a3 3 0 0 1 0 6h-3v2h3a5 5 0 0 0 0-10Z"/></symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.93c.58.1.8-.25.8-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.53-1.35-1.3-1.7-1.3-1.7-1.06-.74.08-.73.08-.73 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.73 1.26 3.4.96.1-.76.41-1.26.75-1.55-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.3 1.19-3.12-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.17-1.19 3.17-1.19.63 1.57.23 2.73.12 3.02.74.82 1.19 1.86 1.19 3.12 0 4.42-2.69 5.39-5.25 5.67.42.36.8 1.07.8 2.16v3.2c0 .31.21.67.81.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8.5h4V23h-4ZM8 8.5h3.8v1.97h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.63 4.74 6.05V23h-4v-6.3c0-1.5-.02-3.42-2.08-3.42-2.08 0-2.4 1.62-2.4 3.3V23h-3.86Z"/></symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 5.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5Zm6.5-.75a1.25 1.25 0 1 0 1.25 1.25 1.25 1.25 0 0 0-1.25-1.25Z"/></symbol>
+    </svg>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
